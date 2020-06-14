@@ -1,0 +1,94 @@
+/* ----------------------------------------------------------- */
+/*                                                             */
+/*         Das sind die default Style-Sheet Vorlagen           */
+/*         fuer meine homepage.                                */
+/*                                                             */
+/*         Version 1.0:	7. Okt. 1999 (mit SELFHTML)            */
+/*                                                             */
+/*         copyright by igramul [Lukas Walter]                 */
+/*                                                             */
+/* ----------------------------------------------------------- */
+
+
+body  {
+  font-family: arial, Verdana, Helvetica, 'avant garde gothic', Avantgarde, sans-serif;
+  font-style: normal; 
+  font-variant: normal;
+  font-size : 8pt;
+  font-weight: normal;
+  text-decoration: none; 
+  text-transform: none;
+  color: #000000;
+  background: #FFFFFF;
+  text-align: left;
+  margin-top: 2mm;
+  margin-bottom: 2mm;
+  margin-left: 2mm;
+  margin-right: 2mm;
+}
+
+table.igi {
+  caption-side: bottom;  
+  table-layout: auto;
+  border: thin solid red; 
+  border-spacing: 2mm;
+}
+
+tr.igi {
+  background: #EEEEEE;
+  padding: 0mm;
+}
+
+td.igi {
+  background: #EEEEEE;
+  padding: 1mm;
+}
+
+img {
+  border: 0mm;
+}
+
+a:link {
+  color : rgb(51,51,153);
+}
+
+a:visited {
+  color : rgb(153,51,51);
+}
+
+a:hover {
+  color : rgb(51,153,51);
+}
+
+a:active {
+  color : rgb(51,153,51);
+  font-style : italic;
+}
+
+p, h1, h2, h3, h4, ul, ol, li, div, td, th, address, blockquote, b, i {
+}
+
+p.large {
+  font-size : 14pt;
+}
+
+p.header {
+  font-size : 12pt;
+}
+
+p.foot {
+  font-size : 10pt;
+}
+
+div.header {
+  font-size : 14pt;
+  font-weight : bold;
+}
+
+div.footnote {
+  font-size : 10pt;
+}
+
+tr.head {
+  font-weight : bold;
+}
